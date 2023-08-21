@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3de25aac6df6d27d7bf443b81765571 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c3de25aac6df6d27d7bf443b81765571" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c3de25aac6df6d27d7bf443b81765571 = L.map(
+                "map_c3de25aac6df6d27d7bf443b81765571",
+                {
+                    center: [52.13800816666667, -0.5410993518518519],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d5071e2d611e67fdc6f215ea2fe7b79 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+            var marker_8f76946e383b4146686370d08d34f63d = L.marker(
+                [53.749583, -0.969265],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_d2158602ab89c4cd0546f76283b19304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc27a0948b7a5a2dedcdf0681434c26 = $(`<div id="html_5dc27a0948b7a5a2dedcdf0681434c26" style="width: 100.0%; height: 100.0%;">Station: Barmby<br>Mean Sea Level: 1.55</div>`)[0];
+                popup_d2158602ab89c4cd0546f76283b19304.setContent(html_5dc27a0948b7a5a2dedcdf0681434c26);
+            
+        
+
+        marker_8f76946e383b4146686370d08d34f63d.bindPopup(popup_d2158602ab89c4cd0546f76283b19304)
+        ;
+
+        
+    
+    
+            var marker_efe25f02c4b0bf364271a1ba4eda1c95 = L.marker(
+                [53.707031, -0.725316],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e008d2d474427ed205060ef7c16822f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd70786ac86fa0f647a8406a95648f2f = $(`<div id="html_dd70786ac86fa0f647a8406a95648f2f" style="width: 100.0%; height: 100.0%;">Station: Blacktoft MGX TL<br>Mean Sea Level: 21.53</div>`)[0];
+                popup_e008d2d474427ed205060ef7c16822f8.setContent(html_dd70786ac86fa0f647a8406a95648f2f);
+            
+        
+
+        marker_efe25f02c4b0bf364271a1ba4eda1c95.bindPopup(popup_e008d2d474427ed205060ef7c16822f8)
+        ;
+
+        
+    
+    
+            var marker_247c255a1d43b5f02869be7a979b38a7 = L.marker(
+                [53.727084, -0.585836],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_efd3003037f5e810f6d915ac98522fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_811a6ca619ed239ca514b8065bec48cc = $(`<div id="html_811a6ca619ed239ca514b8065bec48cc" style="width: 100.0%; height: 100.0%;">Station: Brough Clough<br>Mean Sea Level: 2.69</div>`)[0];
+                popup_efd3003037f5e810f6d915ac98522fb6.setContent(html_811a6ca619ed239ca514b8065bec48cc);
+            
+        
+
+        marker_247c255a1d43b5f02869be7a979b38a7.bindPopup(popup_efd3003037f5e810f6d915ac98522fb6)
+        ;
+
+        
+    
+    
+            var marker_af8c09447a21d814829fd7a6d6fda939 = L.marker(
+                [53.733596, -0.230199],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e3a2ac8d7a9ca886b87faa0333c2bb03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8044b463b6192b03b6f35ce516429d = $(`<div id="html_7d8044b463b6192b03b6f35ce516429d" style="width: 100.0%; height: 100.0%;">Station: Burstwick drain, salt end<br>Mean Sea Level: 0.46</div>`)[0];
+                popup_e3a2ac8d7a9ca886b87faa0333c2bb03.setContent(html_7d8044b463b6192b03b6f35ce516429d);
+            
+        
+
+        marker_af8c09447a21d814829fd7a6d6fda939.bindPopup(popup_e3a2ac8d7a9ca886b87faa0333c2bb03)
+        ;
+
+        
+    
+    
+            var marker_68ab097c6d61dbaa776eb671dabece98 = L.marker(
+                [53.719075, -0.434087],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_129ae574f827f93ea9d4f5c46b887c55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3de88db81ba6d5eb5a4a2431863d65 = $(`<div id="html_ad3de88db81ba6d5eb5a4a2431863d65" style="width: 100.0%; height: 100.0%;">Station: Fleet drain, Hessle<br>Mean Sea Level: 1.20</div>`)[0];
+                popup_129ae574f827f93ea9d4f5c46b887c55.setContent(html_ad3de88db81ba6d5eb5a4a2431863d65);
+            
+        
+
+        marker_68ab097c6d61dbaa776eb671dabece98.bindPopup(popup_129ae574f827f93ea9d4f5c46b887c55)
+        ;
+
+        
+    
+    
+            var marker_ec9f7806ddfa4a29744c34a7b2f9f138 = L.marker(
+                [53.747798, -0.286429],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_585908364bb6218482fdcb0eac1dd845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac598a359ede35ca76d72e83d5d5c36e = $(`<div id="html_ac598a359ede35ca76d72e83d5d5c36e" style="width: 100.0%; height: 100.0%;">Station: Holderness Drain, East Hull Heldon Road<br>Mean Sea Level: -1.13</div>`)[0];
+                popup_585908364bb6218482fdcb0eac1dd845.setContent(html_ac598a359ede35ca76d72e83d5d5c36e);
+            
+        
+
+        marker_ec9f7806ddfa4a29744c34a7b2f9f138.bindPopup(popup_585908364bb6218482fdcb0eac1dd845)
+        ;
+
+        
+    
+    
+            var marker_9b961b69f029f7f1d01efebe7ba0cc43 = L.marker(
+                [53.74959, -0.969053],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_093d15663920349c33aca238c3e5c777 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0e78be74626b999d4732d1d8b0641e7 = $(`<div id="html_b0e78be74626b999d4732d1d8b0641e7" style="width: 100.0%; height: 100.0%;">Station: River Derwent, Barmby<br>Mean Sea Level: 2.18</div>`)[0];
+                popup_093d15663920349c33aca238c3e5c777.setContent(html_b0e78be74626b999d4732d1d8b0641e7);
+            
+        
+
+        marker_9b961b69f029f7f1d01efebe7ba0cc43.bindPopup(popup_093d15663920349c33aca238c3e5c777)
+        ;
+
+        
+    
+    
+            var marker_7d280bc30145c4e63c0b7356c60ac083 = L.marker(
+                [53.767537, -0.330293],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_ca62999652fde53e854fd21d26e29738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8e913eef5c3907042b9bcc966aabb89 = $(`<div id="html_c8e913eef5c3907042b9bcc966aabb89" style="width: 100.0%; height: 100.0%;">Station: River Hull, Stoneferry Bridge<br>Mean Sea Level: 2.16</div>`)[0];
+                popup_ca62999652fde53e854fd21d26e29738.setContent(html_c8e913eef5c3907042b9bcc966aabb89);
+            
+        
+
+        marker_7d280bc30145c4e63c0b7356c60ac083.bindPopup(popup_ca62999652fde53e854fd21d26e29738)
+        ;
+
+        
+    
+    
+            var marker_9e686de1bd644e941a1f846ca124261b = L.marker(
+                [53.701941, -0.866423],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_9826265d11829312eeb403fe6ab96433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2237355d120590497cee692da08e97e7 = $(`<div id="html_2237355d120590497cee692da08e97e7" style="width: 100.0%; height: 100.0%;">Station: River Ouse, Goole<br>Mean Sea Level: 1.10</div>`)[0];
+                popup_9826265d11829312eeb403fe6ab96433.setContent(html_2237355d120590497cee692da08e97e7);
+            
+        
+
+        marker_9e686de1bd644e941a1f846ca124261b.bindPopup(popup_9826265d11829312eeb403fe6ab96433)
+        ;
+
+        
+    
+    
+            var marker_caa7ba82bd696db1d04bb934930bc741 = L.marker(
+                [51.948, 1.29214],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_d37ce529f333653b45e0efe8b6a33578 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4b46683bc5c6a0d1c76f0d056b27911 = $(`<div id="html_e4b46683bc5c6a0d1c76f0d056b27911" style="width: 100.0%; height: 100.0%;">Station: Harwich<br>Mean Sea Level: 2.29</div>`)[0];
+                popup_d37ce529f333653b45e0efe8b6a33578.setContent(html_e4b46683bc5c6a0d1c76f0d056b27911);
+            
+        
+
+        marker_caa7ba82bd696db1d04bb934930bc741.bindPopup(popup_d37ce529f333653b45e0efe8b6a33578)
+        ;
+
+        
+    
+    
+            var marker_38cceece6189adfe77644b579d30035e = L.marker(
+                [51.891342, 0.915231],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_a6dc0790e93184c9fdfb90da1a345314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1811522cea06d9b8a1aa8c7f9db3357 = $(`<div id="html_f1811522cea06d9b8a1aa8c7f9db3357" style="width: 100.0%; height: 100.0%;">Station: East Mill Sluice Colchester<br>Mean Sea Level: 1.32</div>`)[0];
+                popup_a6dc0790e93184c9fdfb90da1a345314.setContent(html_f1811522cea06d9b8a1aa8c7f9db3357);
+            
+        
+
+        marker_38cceece6189adfe77644b579d30035e.bindPopup(popup_a6dc0790e93184c9fdfb90da1a345314)
+        ;
+
+        
+    
+    
+            var marker_0b307acf651e50eae3a32df770eb4ce4 = L.marker(
+                [51.881331, 0.517362],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_3bfea8841f849e8a2e30d38cce2c6b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81f366df0a74e5c218d91d80699b8e95 = $(`<div id="html_81f366df0a74e5c218d91d80699b8e95" style="width: 100.0%; height: 100.0%;">Station: Braintree Shalford Road <br>Mean Sea Level: 50.59</div>`)[0];
+                popup_3bfea8841f849e8a2e30d38cce2c6b62.setContent(html_81f366df0a74e5c218d91d80699b8e95);
+            
+        
+
+        marker_0b307acf651e50eae3a32df770eb4ce4.bindPopup(popup_3bfea8841f849e8a2e30d38cce2c6b62)
+        ;
+
+        
+    
+    
+            var marker_927f96ebf3868b7434a5b33d103e3262 = L.marker(
+                [51.697274, -0.013228],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_65fa4b9c1cd4e0a83d1d626d3b26d0d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_168dc0131387051f1389180a6fa44035 = $(`<div id="html_168dc0131387051f1389180a6fa44035" style="width: 100.0%; height: 100.0%;">Station: David Stoker Radial Gates<br>Mean Sea Level: 0.00</div>`)[0];
+                popup_65fa4b9c1cd4e0a83d1d626d3b26d0d4.setContent(html_168dc0131387051f1389180a6fa44035);
+            
+        
+
+        marker_927f96ebf3868b7434a5b33d103e3262.bindPopup(popup_65fa4b9c1cd4e0a83d1d626d3b26d0d4)
+        ;
+
+        
+    
+    
+            var marker_ba210a6a703ccbb91e15266776bcd69d = L.marker(
+                [51.955175, 0.426847],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_96752bb393a8d1eb880da899d40f78ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3979eb37bef3a088d0aa175155f2c251 = $(`<div id="html_3979eb37bef3a088d0aa175155f2c251" style="width: 100.0%; height: 100.0%;">Station: River Pant, Copford Hall<br>Mean Sea Level: 0.21</div>`)[0];
+                popup_96752bb393a8d1eb880da899d40f78ee.setContent(html_3979eb37bef3a088d0aa175155f2c251);
+            
+        
+
+        marker_ba210a6a703ccbb91e15266776bcd69d.bindPopup(popup_96752bb393a8d1eb880da899d40f78ee)
+        ;
+
+        
+    
+    
+            var marker_6f8045aa42d7a533f5f52d4112980e11 = L.marker(
+                [51.65178, 0.119024],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_11d7a5efc025ba8ceb7e52174a3d5d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_877c9bba9a60d11ef6059337075700ff = $(`<div id="html_877c9bba9a60d11ef6059337075700ff" style="width: 100.0%; height: 100.0%;">Station: River Roding, Abridge<br>Mean Sea Level: 1.19</div>`)[0];
+                popup_11d7a5efc025ba8ceb7e52174a3d5d58.setContent(html_877c9bba9a60d11ef6059337075700ff);
+            
+        
+
+        marker_6f8045aa42d7a533f5f52d4112980e11.bindPopup(popup_11d7a5efc025ba8ceb7e52174a3d5d58)
+        ;
+
+        
+    
+    
+            var marker_77a2c03cffaca7259e4f1c58258564e5 = L.marker(
+                [51.898975, 0.358984],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_31e7137d4a4b7bbe59b94a359c989edf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e480a1149d350e4fa26c71ab57567a = $(`<div id="html_94e480a1149d350e4fa26c71ab57567a" style="width: 100.0%; height: 100.0%;">Station: Tide, Harwich<br>Mean Sea Level: 0.27</div>`)[0];
+                popup_31e7137d4a4b7bbe59b94a359c989edf.setContent(html_94e480a1149d350e4fa26c71ab57567a);
+            
+        
+
+        marker_77a2c03cffaca7259e4f1c58258564e5.bindPopup(popup_31e7137d4a4b7bbe59b94a359c989edf)
+        ;
+
+        
+    
+    
+            var marker_8e42f9792e159c677ba547a29f7ac370 = L.marker(
+                [51.947978, 1.292108],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_f13ef9cdcfdafc479f17f1dd9072b711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e353da67c2f20ae8b1bca4d7b58fa2c3 = $(`<div id="html_e353da67c2f20ae8b1bca4d7b58fa2c3" style="width: 100.0%; height: 100.0%;">Station: Sheerness<br>Mean Sea Level: 3.12</div>`)[0];
+                popup_f13ef9cdcfdafc479f17f1dd9072b711.setContent(html_e353da67c2f20ae8b1bca4d7b58fa2c3);
+            
+        
+
+        marker_8e42f9792e159c677ba547a29f7ac370.bindPopup(popup_f13ef9cdcfdafc479f17f1dd9072b711)
+        ;
+
+        
+    
+    
+            var marker_8d7b2d619e006a46a5e5beb7df48e54d = L.marker(
+                [51.44564, 0.74344],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_814ce2a72e909f6bd8f38ab9c9cd0ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d30f3c0af9c998d241e012613b0da6e = $(`<div id="html_0d30f3c0af9c998d241e012613b0da6e" style="width: 100.0%; height: 100.0%;">Station: Scrapsgate RL<br>Mean Sea Level: 0.62</div>`)[0];
+                popup_814ce2a72e909f6bd8f38ab9c9cd0ee4.setContent(html_0d30f3c0af9c998d241e012613b0da6e);
+            
+        
+
+        marker_8d7b2d619e006a46a5e5beb7df48e54d.bindPopup(popup_814ce2a72e909f6bd8f38ab9c9cd0ee4)
+        ;
+
+        
+    
+    
+            var marker_dda9dab0e09a6574b8e2f42863a89c3c = L.marker(
+                [51.289858, 1.316654],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_13e07338382e2fbbfcdb6d3253927fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a15012fbf8277abd96dec834cf19aae6 = $(`<div id="html_a15012fbf8277abd96dec834cf19aae6" style="width: 100.0%; height: 100.0%;">Station: Yalding Us RL<br>Mean Sea Level: 45.08</div>`)[0];
+                popup_13e07338382e2fbbfcdb6d3253927fa5.setContent(html_a15012fbf8277abd96dec834cf19aae6);
+            
+        
+
+        marker_dda9dab0e09a6574b8e2f42863a89c3c.bindPopup(popup_13e07338382e2fbbfcdb6d3253927fa5)
+        ;
+
+        
+    
+    
+            var marker_f7cc71e2237dd74331b3b9a139bd19b1 = L.marker(
+                [51.22281, 0.419484],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_ad3ab2059788cff1e57eb460ffa33f8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa947deac0bff0553a3f4218c2f9afa3 = $(`<div id="html_fa947deac0bff0553a3f4218c2f9afa3" style="width: 100.0%; height: 100.0%;">Station: Cheveney Gate RL<br>Mean Sea Level: 38.46</div>`)[0];
+                popup_ad3ab2059788cff1e57eb460ffa33f8d.setContent(html_fa947deac0bff0553a3f4218c2f9afa3);
+            
+        
+
+        marker_f7cc71e2237dd74331b3b9a139bd19b1.bindPopup(popup_ad3ab2059788cff1e57eb460ffa33f8d)
+        ;
+
+        
+    
+    
+            var marker_73db6d62f6b0b0a6cdd99b928940da9f = L.marker(
+                [51.215819, 0.444707],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_363ce944ce948f005623e2dd88a8a82f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5c93d701ae5658822c3671422ea6866 = $(`<div id="html_b5c93d701ae5658822c3671422ea6866" style="width: 100.0%; height: 100.0%;">Station: Little Mill RL<br>Mean Sea Level: 13.44</div>`)[0];
+                popup_363ce944ce948f005623e2dd88a8a82f.setContent(html_b5c93d701ae5658822c3671422ea6866);
+            
+        
+
+        marker_73db6d62f6b0b0a6cdd99b928940da9f.bindPopup(popup_363ce944ce948f005623e2dd88a8a82f)
+        ;
+
+        
+    
+    
+            var marker_fc1b6f8ce5512fc4f36de472de62af95 = L.marker(
+                [51.209402, 0.371532],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_c5957014d845e85c0c38351036466ca0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7a4000160ff57b6e4d664b584ba167 = $(`<div id="html_ee7a4000160ff57b6e4d664b584ba167" style="width: 100.0%; height: 100.0%;">Station: Dover<br>Mean Sea Level: 3.94</div>`)[0];
+                popup_c5957014d845e85c0c38351036466ca0.setContent(html_ee7a4000160ff57b6e4d664b584ba167);
+            
+        
+
+        marker_fc1b6f8ce5512fc4f36de472de62af95.bindPopup(popup_c5957014d845e85c0c38351036466ca0)
+        ;
+
+        
+    
+    
+            var marker_19d63cc8fa29ae9d616a3a2a16f5de04 = L.marker(
+                [51.11439, 1.32267],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_82c131b71a05cd718ec211d5403d3e11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db40f9bc9a82b27eb90604d8ff4415e6 = $(`<div id="html_db40f9bc9a82b27eb90604d8ff4415e6" style="width: 100.0%; height: 100.0%;">Station: Pent Firestation RL<br>Mean Sea Level: 17.42</div>`)[0];
+                popup_82c131b71a05cd718ec211d5403d3e11.setContent(html_db40f9bc9a82b27eb90604d8ff4415e6);
+            
+        
+
+        marker_19d63cc8fa29ae9d616a3a2a16f5de04.bindPopup(popup_82c131b71a05cd718ec211d5403d3e11)
+        ;
+
+        
+    
+    
+            var marker_b12775d232d73eb0b9d551a122480c46 = L.marker(
+                [51.08683, 1.174829],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_220c2c5251b4355e4272a329fe5f8a4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d724c423831007fd23be3389de3012b = $(`<div id="html_7d724c423831007fd23be3389de3012b" style="width: 100.0%; height: 100.0%;">Station: Hamstreet RL<br>Mean Sea Level: 2.29</div>`)[0];
+                popup_220c2c5251b4355e4272a329fe5f8a4b.setContent(html_7d724c423831007fd23be3389de3012b);
+            
+        
+
+        marker_b12775d232d73eb0b9d551a122480c46.bindPopup(popup_220c2c5251b4355e4272a329fe5f8a4b)
+        ;
+
+        
+    
+    
+            var marker_50360bc39cc31fbe526054b7846e5923 = L.marker(
+                [51.06618, 0.857033],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_55b1b8edc09052d726df2e0fdb148861 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23571ee1440b6b18b9baa28c04d1d5c7 = $(`<div id="html_23571ee1440b6b18b9baa28c04d1d5c7" style="width: 100.0%; height: 100.0%;">Station: Greatstone PS<br>Mean Sea Level: 8.98</div>`)[0];
+                popup_55b1b8edc09052d726df2e0fdb148861.setContent(html_23571ee1440b6b18b9baa28c04d1d5c7);
+            
+        
+
+        marker_50360bc39cc31fbe526054b7846e5923.bindPopup(popup_55b1b8edc09052d726df2e0fdb148861)
+        ;
+
+        
+    
+    
+            var marker_1ace8abe880d8942c62b0066380afbcf = L.marker(
+                [51.415798, 0.742491],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_7518f30fa56b19a1b8d13047f06ac0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_527f2d8398abbba8375e2fe15dc1edd4 = $(`<div id="html_527f2d8398abbba8375e2fe15dc1edd4" style="width: 100.0%; height: 100.0%;">Station: River Stour, Sandwich Quay<br>Mean Sea Level: 8.79</div>`)[0];
+                popup_7518f30fa56b19a1b8d13047f06ac0af.setContent(html_527f2d8398abbba8375e2fe15dc1edd4);
+            
+        
+
+        marker_1ace8abe880d8942c62b0066380afbcf.bindPopup(popup_7518f30fa56b19a1b8d13047f06ac0af)
+        ;
+
+        
+    
+    
+            var marker_9fa2fd1e23236b67ed68a560c998cbc6 = L.marker(
+                [51.275409, 1.343276],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_297ab859823553b603d1d80020aff937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f11fc8f5a61f92ce7655d68747c1ae7f = $(`<div id="html_f11fc8f5a61f92ce7655d68747c1ae7f" style="width: 100.0%; height: 100.0%;">Station: Swalecliffe Brook, Grasmere Road<br>Mean Sea Level: 8.21</div>`)[0];
+                popup_297ab859823553b603d1d80020aff937.setContent(html_f11fc8f5a61f92ce7655d68747c1ae7f);
+            
+        
+
+        marker_9fa2fd1e23236b67ed68a560c998cbc6.bindPopup(popup_297ab859823553b603d1d80020aff937)
+        ;
+
+        
+    
+    
+            var marker_8c0fdb62c99ead183d1cbc9fbd25a750 = L.marker(
+                [51.351358, 1.060038],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_3353da81ca972a7851398fca727ed9be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e92868c51bf3d08d47ce3690d67998f = $(`<div id="html_2e92868c51bf3d08d47ce3690d67998f" style="width: 100.0%; height: 100.0%;">Station: Tide, Sheerness<br>Mean Sea Level: 0.22</div>`)[0];
+                popup_3353da81ca972a7851398fca727ed9be.setContent(html_2e92868c51bf3d08d47ce3690d67998f);
+            
+        
+
+        marker_8c0fdb62c99ead183d1cbc9fbd25a750.bindPopup(popup_3353da81ca972a7851398fca727ed9be)
+        ;
+
+        
+    
+    
+            var marker_58a617248647c91f182442d1e4b1d267 = L.marker(
+                [51.445627, 0.743415],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_7c930979630491d04f82b62837d99058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e61d76ad09c3172fb628759fc8441722 = $(`<div id="html_e61d76ad09c3172fb628759fc8441722" style="width: 100.0%; height: 100.0%;">Station: West Brook, Whitstable Road<br>Mean Sea Level: 3.31</div>`)[0];
+                popup_7c930979630491d04f82b62837d99058.setContent(html_e61d76ad09c3172fb628759fc8441722);
+            
+        
+
+        marker_58a617248647c91f182442d1e4b1d267.bindPopup(popup_7c930979630491d04f82b62837d99058)
+        ;
+
+        
+    
+    
+            var marker_3055aa110ae53379cea158837f0cde35 = L.marker(
+                [53.567416, -0.083112],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_f09cf0d1e082d6596847a3dab1b9daf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5359230ab2fd90da22f80cd813627574 = $(`<div id="html_5359230ab2fd90da22f80cd813627574" style="width: 100.0%; height: 100.0%;">Station: Thoresby Louth Canal GS<br>Mean Sea Level: 0.75</div>`)[0];
+                popup_f09cf0d1e082d6596847a3dab1b9daf1.setContent(html_5359230ab2fd90da22f80cd813627574);
+            
+        
+
+        marker_3055aa110ae53379cea158837f0cde35.bindPopup(popup_f09cf0d1e082d6596847a3dab1b9daf1)
+        ;
+
+        
+    
+    
+            var marker_a4992d7ebf261ba7787df6031505f318 = L.marker(
+                [53.166903, 0.157512],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_b0a77869ac22bdd4ced11055f38866f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74d4db868039d2ab554f765233be4905 = $(`<div id="html_74d4db868039d2ab554f765233be4905" style="width: 100.0%; height: 100.0%;">Station: New Waltham GS GSM<br>Mean Sea Level: 8.16</div>`)[0];
+                popup_b0a77869ac22bdd4ced11055f38866f7.setContent(html_74d4db868039d2ab554f765233be4905);
+            
+        
+
+        marker_a4992d7ebf261ba7787df6031505f318.bindPopup(popup_b0a77869ac22bdd4ced11055f38866f7)
+        ;
+
+        
+    
+    
+            var marker_9d67d6d60ec8c38db4049bd6bf935d8f = L.marker(
+                [53.507924, 0.040547],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_37b453a73cb4f2433657c142f2f6d928 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e18910dc2ba98e38a4752ca99c491e = $(`<div id="html_08e18910dc2ba98e38a4752ca99c491e" style="width: 100.0%; height: 100.0%;">Station: Louth Ramsgate Road Gs<br>Mean Sea Level: 18.92</div>`)[0];
+                popup_37b453a73cb4f2433657c142f2f6d928.setContent(html_08e18910dc2ba98e38a4752ca99c491e);
+            
+        
+
+        marker_9d67d6d60ec8c38db4049bd6bf935d8f.bindPopup(popup_37b453a73cb4f2433657c142f2f6d928)
+        ;
+
+        
+    
+    
+            var marker_f9493069194e23681c56767f46e643eb = L.marker(
+                [53.275667, -0.636863],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e345869a4d4e8c91bde16cdef1df6866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709b1f059a60f3c6f622695495c56103 = $(`<div id="html_709b1f059a60f3c6f622695495c56103" style="width: 100.0%; height: 100.0%;">Station: Horncastle FSR<br>Mean Sea Level: 40.40</div>`)[0];
+                popup_e345869a4d4e8c91bde16cdef1df6866.setContent(html_709b1f059a60f3c6f622695495c56103);
+            
+        
+
+        marker_f9493069194e23681c56767f46e643eb.bindPopup(popup_e345869a4d4e8c91bde16cdef1df6866)
+        ;
+
+        
+    
+    
+            var marker_f11ff0fa626b98f437dd3c02e3a65ac2 = L.marker(
+                [53.219481, -0.541817],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_a9e02bbfb452765c3999e56db93ced1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5adc63d99451669d7e8cd6c56dd70cfb = $(`<div id="html_5adc63d99451669d7e8cd6c56dd70cfb" style="width: 100.0%; height: 100.0%;">Station: Stockwith Mill Gs Hagworthingham Wits<br>Mean Sea Level: 29.46</div>`)[0];
+                popup_a9e02bbfb452765c3999e56db93ced1f.setContent(html_5adc63d99451669d7e8cd6c56dd70cfb);
+            
+        
+
+        marker_f11ff0fa626b98f437dd3c02e3a65ac2.bindPopup(popup_a9e02bbfb452765c3999e56db93ced1f)
+        ;
+
+        
+    
+    
+            var marker_cdce02d1f2c28f68bcf02142c55f1090 = L.marker(
+                [53.213741, 0.031361],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_6449843dbd75e1ba06e14ad88067f47b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f140587af3514e4ec11500d6ead020bd = $(`<div id="html_f140587af3514e4ec11500d6ead020bd" style="width: 100.0%; height: 100.0%;">Station: Burgh Sluice Doors Gibraltar<br>Mean Sea Level: 3.64</div>`)[0];
+                popup_6449843dbd75e1ba06e14ad88067f47b.setContent(html_f140587af3514e4ec11500d6ead020bd);
+            
+        
+
+        marker_cdce02d1f2c28f68bcf02142c55f1090.bindPopup(popup_6449843dbd75e1ba06e14ad88067f47b)
+        ;
+
+        
+    
+    
+            var marker_2c792d4cd72fefa25060877c1a3af67e = L.marker(
+                [52.799071, -0.132694],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_4a2c57d505e1f6d824c9893f9fb9d797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db8886e61c91609df3d1ecd56fc4a7e5 = $(`<div id="html_db8886e61c91609df3d1ecd56fc4a7e5" style="width: 100.0%; height: 100.0%;">Station: Bourne Eau PS<br>Mean Sea Level: 2.85</div>`)[0];
+                popup_4a2c57d505e1f6d824c9893f9fb9d797.setContent(html_db8886e61c91609df3d1ecd56fc4a7e5);
+            
+        
+
+        marker_2c792d4cd72fefa25060877c1a3af67e.bindPopup(popup_4a2c57d505e1f6d824c9893f9fb9d797)
+        ;
+
+        
+    
+    
+            var marker_b985d349a8656c5e873955904e232fcc = L.marker(
+                [53.539188, 0.00082],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_dc65247fc4d32ad2d2928b92882aa7ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb05f91ce81a7894c91ddab7746cd31b = $(`<div id="html_fb05f91ce81a7894c91ddab7746cd31b" style="width: 100.0%; height: 100.0%;">Station: River welland, Marsh Road Sluice<br>Mean Sea Level: 1.33</div>`)[0];
+                popup_dc65247fc4d32ad2d2928b92882aa7ef.setContent(html_fb05f91ce81a7894c91ddab7746cd31b);
+            
+        
+
+        marker_b985d349a8656c5e873955904e232fcc.bindPopup(popup_dc65247fc4d32ad2d2928b92882aa7ef)
+        ;
+
+        
+    
+    
+            var marker_04d00f126ee1389ff116ee1723387d03 = L.marker(
+                [53.213749, -0.345212],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_71198f8cda11674547daac5812057e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fea76c1b56aa8e6e58ba1056b816b60e = $(`<div id="html_fea76c1b56aa8e6e58ba1056b816b60e" style="width: 100.0%; height: 100.0%;">Station: River Witham, Bardney<br>Mean Sea Level: 0.92</div>`)[0];
+                popup_71198f8cda11674547daac5812057e63.setContent(html_fea76c1b56aa8e6e58ba1056b816b60e);
+            
+        
+
+        marker_04d00f126ee1389ff116ee1723387d03.bindPopup(popup_71198f8cda11674547daac5812057e63)
+        ;
+
+        
+    
+    
+            var marker_9c4f4c5df80719d7cb0cba438a6d6de8 = L.marker(
+                [50.292337, -4.78176],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_bfbe4932722b4181a48e236980d805fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd43330e4decc9c7a7927964279777ac = $(`<div id="html_bd43330e4decc9c7a7927964279777ac" style="width: 100.0%; height: 100.0%;">Station: Pentewan<br>Mean Sea Level: 1.24</div>`)[0];
+                popup_bfbe4932722b4181a48e236980d805fc.setContent(html_bd43330e4decc9c7a7927964279777ac);
+            
+        
+
+        marker_9c4f4c5df80719d7cb0cba438a6d6de8.bindPopup(popup_bfbe4932722b4181a48e236980d805fc)
+        ;
+
+        
+    
+    
+            var marker_5cbdf4bb0642eab1460cb2a073d64217 = L.marker(
+                [50.188345, -5.422438],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_2359638aebd2d2ce70abbc25576d4071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74e9db95085bd7e20b741f9002219e7b = $(`<div id="html_74e9db95085bd7e20b741f9002219e7b" style="width: 100.0%; height: 100.0%;">Station: Copperhouse<br>Mean Sea Level: 1.56</div>`)[0];
+                popup_2359638aebd2d2ce70abbc25576d4071.setContent(html_74e9db95085bd7e20b741f9002219e7b);
+            
+        
+
+        marker_5cbdf4bb0642eab1460cb2a073d64217.bindPopup(popup_2359638aebd2d2ce70abbc25576d4071)
+        ;
+
+        
+    
+    
+            var marker_35b8882405d353475c46f55b84cbb5de = L.marker(
+                [50.127628, -5.533739],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_de6855c76ea863c4aeb4cf78d979e99e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd41a86abd6dc1632db1cd169c98a0ff = $(`<div id="html_dd41a86abd6dc1632db1cd169c98a0ff" style="width: 100.0%; height: 100.0%;">Station: Newlyn<br>Mean Sea Level: 2.87</div>`)[0];
+                popup_de6855c76ea863c4aeb4cf78d979e99e.setContent(html_dd41a86abd6dc1632db1cd169c98a0ff);
+            
+        
+
+        marker_35b8882405d353475c46f55b84cbb5de.bindPopup(popup_de6855c76ea863c4aeb4cf78d979e99e)
+        ;
+
+        
+    
+    
+            var marker_80776554063a49c6eb9a8351bae47027 = L.marker(
+                [50.071815, -5.295076],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_4a8b4ca1df07b0d4b7e344300a823c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3277277dead07586e0012c241eebf3b4 = $(`<div id="html_3277277dead07586e0012c241eebf3b4" style="width: 100.0%; height: 100.0%;">Station: St Marys, Cornwall<br>Mean Sea Level: 3.07</div>`)[0];
+                popup_4a8b4ca1df07b0d4b7e344300a823c4a.setContent(html_3277277dead07586e0012c241eebf3b4);
+            
+        
+
+        marker_80776554063a49c6eb9a8351bae47027.bindPopup(popup_4a8b4ca1df07b0d4b7e344300a823c4a)
+        ;
+
+        
+    
+    
+            var marker_476f99f86fa0cd0cba7043b7656fd0ac = L.marker(
+                [50.333505, -5.137115],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_6b785d2189a77fc9ba7a27ff9dc8de1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3ffb85463506cd64bc1297bf83af985 = $(`<div id="html_e3ffb85463506cd64bc1297bf83af985" style="width: 100.0%; height: 100.0%;">Station: Carnon River, Bissoe<br>Mean Sea Level: 0.60</div>`)[0];
+                popup_6b785d2189a77fc9ba7a27ff9dc8de1c.setContent(html_e3ffb85463506cd64bc1297bf83af985);
+            
+        
+
+        marker_476f99f86fa0cd0cba7043b7656fd0ac.bindPopup(popup_6b785d2189a77fc9ba7a27ff9dc8de1c)
+        ;
+
+        
+    
+    
+            var marker_addd783a30b0bb5246b494fcbe216e43 = L.marker(
+                [50.558795, -4.637796],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_119386fbb9b819053b46fbe90f14c3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3090de5d0420bef2b0d7d164ae6d1b7a = $(`<div id="html_3090de5d0420bef2b0d7d164ae6d1b7a" style="width: 100.0%; height: 100.0%;">Station: North Cornwall Coast, Padstow<br>Mean Sea Level: 1.16</div>`)[0];
+                popup_119386fbb9b819053b46fbe90f14c3f3.setContent(html_3090de5d0420bef2b0d7d164ae6d1b7a);
+            
+        
+
+        marker_addd783a30b0bb5246b494fcbe216e43.bindPopup(popup_119386fbb9b819053b46fbe90f14c3f3)
+        ;
+
+        
+    
+    
+            var marker_cf5b71bdb47e2a442ab4ae8b6531a005 = L.marker(
+                [50.393206, -5.056217],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e768330856fe1a94597b35c34d95661d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e0a22fe999e5e9be58ce47b0636b625 = $(`<div id="html_3e0a22fe999e5e9be58ce47b0636b625" style="width: 100.0%; height: 100.0%;">Station: River Hayle, Hayle Tideflap<br>Mean Sea Level: 1.63</div>`)[0];
+                popup_e768330856fe1a94597b35c34d95661d.setContent(html_3e0a22fe999e5e9be58ce47b0636b625);
+            
+        
+
+        marker_cf5b71bdb47e2a442ab4ae8b6531a005.bindPopup(popup_e768330856fe1a94597b35c34d95661d)
+        ;
+
+        
+    
+    
+            var marker_f2a133869f2f39346a5605148e0fd351 = L.marker(
+                [50.844477, -4.509166],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_658101914dd547f1aa9f9fe9dd95b24e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b2045ecd4afc4c904d68b11b475603d = $(`<div id="html_8b2045ecd4afc4c904d68b11b475603d" style="width: 100.0%; height: 100.0%;">Station: River Tamar, Polson Bridge<br>Mean Sea Level: 0.66</div>`)[0];
+                popup_658101914dd547f1aa9f9fe9dd95b24e.setContent(html_8b2045ecd4afc4c904d68b11b475603d);
+            
+        
+
+        marker_f2a133869f2f39346a5605148e0fd351.bindPopup(popup_658101914dd547f1aa9f9fe9dd95b24e)
+        ;
+
+        
+    
+    
+            var marker_8223e01f690a0c2db4f1803678b2343d = L.marker(
+                [50.311776, -4.800075],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_ae5da1d0c74fcfebd92ee6f038888e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_382ea1d93137f1cd1462a2e4cc1dce2f = $(`<div id="html_382ea1d93137f1cd1462a2e4cc1dce2f" style="width: 100.0%; height: 100.0%;">Station: Tide, Fowey<br>Mean Sea Level: 0.53</div>`)[0];
+                popup_ae5da1d0c74fcfebd92ee6f038888e41.setContent(html_382ea1d93137f1cd1462a2e4cc1dce2f);
+            
+        
+
+        marker_8223e01f690a0c2db4f1803678b2343d.bindPopup(popup_ae5da1d0c74fcfebd92ee6f038888e41)
+        ;
+
+        
+    
+    
+            var marker_9e1131b370e70fe951d7cf668aece965 = L.marker(
+                [52.934316, 1.301623],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_33e5d096347dd85c9a1a4056a1702c3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9e9f6f80225df5e100b6a63a736520b = $(`<div id="html_d9e9f6f80225df5e100b6a63a736520b" style="width: 100.0%; height: 100.0%;">Station: Cromer<br>Mean Sea Level: 2.94</div>`)[0];
+                popup_33e5d096347dd85c9a1a4056a1702c3a.setContent(html_d9e9f6f80225df5e100b6a63a736520b);
+            
+        
+
+        marker_9e1131b370e70fe951d7cf668aece965.bindPopup(popup_33e5d096347dd85c9a1a4056a1702c3a)
+        ;
+
+        
+    
+    
+            var marker_6de76d853bf2a8be2ca35e74bdc1072b = L.marker(
+                [52.93436, 1.30164],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_4dc0704943941b916f03e1c744bdfd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee036acbaf8bea9ee0822c5f1b9a9d1c = $(`<div id="html_ee036acbaf8bea9ee0822c5f1b9a9d1c" style="width: 100.0%; height: 100.0%;">Station: Kings Lynn South Quay GSM<br>Mean Sea Level: 0.52</div>`)[0];
+                popup_4dc0704943941b916f03e1c744bdfd65.setContent(html_ee036acbaf8bea9ee0822c5f1b9a9d1c);
+            
+        
+
+        marker_6de76d853bf2a8be2ca35e74bdc1072b.bindPopup(popup_4dc0704943941b916f03e1c744bdfd65)
+        ;
+
+        
+    
+    
+            var marker_7d1d482e3fa1b140d1a64dff1dc27f5a = L.marker(
+                [52.751366, 0.393311],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_1674a5ef8dcbdceb0862f0ec7e5de1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b38f03e15f36171d27ed21c0a8788f8c = $(`<div id="html_b38f03e15f36171d27ed21c0a8788f8c" style="width: 100.0%; height: 100.0%;">Station: Gressenhall Sluice<br>Mean Sea Level: 28.91</div>`)[0];
+                popup_1674a5ef8dcbdceb0862f0ec7e5de1a1.setContent(html_b38f03e15f36171d27ed21c0a8788f8c);
+            
+        
+
+        marker_7d1d482e3fa1b140d1a64dff1dc27f5a.bindPopup(popup_1674a5ef8dcbdceb0862f0ec7e5de1a1)
+        ;
+
+        
+    
+    
+            var marker_d440ec7b8959360f627a4330dd7fdf2d = L.marker(
+                [52.633061, 1.288057],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_405a61f4b0e7be3af340a6bb12d8b079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f099e53ef3a41e7e49fa933f8cb916 = $(`<div id="html_27f099e53ef3a41e7e49fa933f8cb916" style="width: 100.0%; height: 100.0%;">Station: Barnham Broom GS<br>Mean Sea Level: 21.53</div>`)[0];
+                popup_405a61f4b0e7be3af340a6bb12d8b079.setContent(html_27f099e53ef3a41e7e49fa933f8cb916);
+            
+        
+
+        marker_d440ec7b8959360f627a4330dd7fdf2d.bindPopup(popup_405a61f4b0e7be3af340a6bb12d8b079)
+        ;
+
+        
+    
+    
+            var marker_e61fda9fc6744145e8cdddeab64a9d27 = L.marker(
+                [52.606673, 1.723383],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e0f584dd9b3743101de0d3f861c759e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81eef3c9e0acb3cf0407d16027add1bf = $(`<div id="html_81eef3c9e0acb3cf0407d16027add1bf" style="width: 100.0%; height: 100.0%;">Station: Keswick Mill Sluice GSM<br>Mean Sea Level: 5.31</div>`)[0];
+                popup_e0f584dd9b3743101de0d3f861c759e8.setContent(html_81eef3c9e0acb3cf0407d16027add1bf);
+            
+        
+
+        marker_e61fda9fc6744145e8cdddeab64a9d27.bindPopup(popup_e0f584dd9b3743101de0d3f861c759e8)
+        ;
+
+        
+    
+    
+            var marker_a515f16299383a344d3f7d5cfcb2b922 = L.marker(
+                [52.741419, 0.387195],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_cceb67ecb9a87df53c967b4f07f9f98e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2fcce36002d8d3b26ae25506b895084 = $(`<div id="html_b2fcce36002d8d3b26ae25506b895084" style="width: 100.0%; height: 100.0%;">Station: River Little Ouse<br>Mean Sea Level: 1.82</div>`)[0];
+                popup_cceb67ecb9a87df53c967b4f07f9f98e.setContent(html_b2fcce36002d8d3b26ae25506b895084);
+            
+        
+
+        marker_a515f16299383a344d3f7d5cfcb2b922.bindPopup(popup_cceb67ecb9a87df53c967b4f07f9f98e)
+        ;
+
+        
+    
+    
+            var marker_7d4758b5bb34642669650d102e4012a0 = L.marker(
+                [52.612011, 1.01713],
+                {}
+            ).addTo(map_c3de25aac6df6d27d7bf443b81765571);
+        
+    
+        var popup_e98e16e4bf75fa47f135e53102dffad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_407b3564719bdd6b05fc28f946ccfdad = $(`<div id="html_407b3564719bdd6b05fc28f946ccfdad" style="width: 100.0%; height: 100.0%;">Station: Tide, Cromer<br>Mean Sea Level: 0.26</div>`)[0];
+                popup_e98e16e4bf75fa47f135e53102dffad5.setContent(html_407b3564719bdd6b05fc28f946ccfdad);
+            
+        
+
+        marker_7d4758b5bb34642669650d102e4012a0.bindPopup(popup_e98e16e4bf75fa47f135e53102dffad5)
+        ;
+
+        
+    
+</script>
+</html>
